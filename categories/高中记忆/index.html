@@ -9,13 +9,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-<title>文章归档: 2020/3 - itdevwu的博客</title>
+<title>分类: 高中记忆 - itdevwu的博客</title>
 
 
     <meta name="description" content="The blog of itdevwu recording unspecific things in life.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="itdevwu的博客">
-<meta property="og:url" content="https://itdevwu.github.io/archives/2020/03/index.html">
+<meta property="og:url" content="https://itdevwu.github.io/categories/%E9%AB%98%E4%B8%AD%E8%AE%B0%E5%BF%86/index.html">
 <meta property="og:site_name" content="itdevwu的博客">
 <meta property="og:description" content="The blog of itdevwu recording unspecific things in life.">
 <meta property="og:locale" content="zh_CN">
@@ -131,52 +131,116 @@
     <section class="section">
         <div class="container">
             <div class="columns">
-                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main">
-
-<div class="card widget">
+                <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main"><div class="card">
     <div class="card-content">
-        <h3 class="tag is-link">
-        三月 2020
-        </h3>
-        <div class="timeline">
-        
-            <article class="media">
-                
-                <div class="media-content">
-                    <div class="content">
-                        <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="2020-03-11T23:31:49.000Z">2020-03-12</time>
-                        <a href="/post/20200312001/" class="title has-link-black-ter is-size-6 has-text-weight-normal">高考倒计时</a>
-                        <div class="level article-meta is-mobile">
-                            <div class="level-left">
-                                
-                                <div class="level-item is-size-7 is-uppercase">
-                                <a class="has-link-grey -link" href="/categories/%E9%AB%98%E4%B8%AD%E8%AE%B0%E5%BF%86/">高中记忆</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        
-            <article class="media">
-                
-                <div class="media-content">
-                    <div class="content">
-                        <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="2020-03-11T06:29:09.237Z">2020-03-11</time>
-                        <a href="/post/ck7n1y5pw0000w8gwdzfkedri/" class="title has-link-black-ter is-size-6 has-text-weight-normal">Hello World</a>
-                        <div class="level article-meta is-mobile">
-                            <div class="level-left">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        
-        </div>
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+        <ul>
+            <li><a href="/categories">分类</a></li>
+            
+            <li class="is-active"><a href="#" aria-current="page">高中记忆</a></li>
+        </ul>
+        </nav>
     </div>
 </div>
+
+    
+<div class="card">
+    
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2020-03-11T23:31:49.000Z">2020-03-12</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/categories/%E9%AB%98%E4%B8%AD%E8%AE%B0%E5%BF%86/">高中记忆</a>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="/post/20200312001/">高考倒计时</a>
+            
+        </h1>
+        <div class="content">
+            <style>
+
+h3 {
+    font-family: serif;
+    font-size: 16px;
+}
+
+</style>
+
+
+<h3><strong>距离高考还有：</strong></h2>
+
+<style>
+
+#countdown {
+    text-align: center;
+    justify-content: center;
+    font-size: 2em;
+    font-family: serif;
+}
+
+</style>
+
+<!-- <div class="container"> -->
+
+<!-- Display the countdown timer in an element -->
+
+<p id="countdown"></p>
+
+<script async>
+// Set the date we're counting down to
+var countDownDate = new Date("June 6, 2020 09:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the result in the element with id="countdown"
+    document.getElementById("countdown").innerHTML = days + " 天 " + hours + " 时 "
+    + minutes + " 分 " + seconds + " 秒 ";
+
+    // If the count down is finished, write some text
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "时间到";
+}
+}, 1000);
+</script>
+
+<!-- </div> -->
+
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
 
 
 </div>
