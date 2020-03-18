@@ -8,8 +8,40 @@
     </url>
 
     <url>
+        <loc>https://itdevwu.github.io/post/20200318001/</loc>
+        <lastmod>2020-03-18T13:41:41.172Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://itdevwu.github.io/post/20200313001/</loc>
+        <lastmod>2020-03-18T13:40:01.338Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://itdevwu.github.io/post/20200316001/</loc>
+        <lastmod>2020-03-18T04:06:12.112Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://itdevwu.github.io/post/20200316002/</loc>
-        <lastmod>2020-03-16T13:24:31.769Z</lastmod>
+        <lastmod>2020-03-18T00:07:55.758Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://itdevwu.github.io/post/20200317666/</loc>
+        <lastmod>2020-03-17T13:41:59.490Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -24,24 +56,8 @@
     </url>
 
     <url>
-        <loc>https://itdevwu.github.io/post/20200316001/</loc>
-        <lastmod>2020-03-16T04:12:50.409Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://itdevwu.github.io/post/20200312001/</loc>
         <lastmod>2020-03-13T04:06:40.303Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://itdevwu.github.io/post/20200313001/</loc>
-        <lastmod>2020-03-13T04:06:33.958Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
